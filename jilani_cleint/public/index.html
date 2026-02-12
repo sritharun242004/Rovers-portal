@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React Application</title>
+  <!-- Add a script to handle loading errors -->
+  <script type="text/javascript">
+    window.addEventListener('error', function(event) {
+      if (event.target && (event.target.tagName === 'SCRIPT' || event.target.tagName === 'LINK')) {
+        console.error(`Resource failed to load: ${event.target.src || event.target.href}`);
+
+        // Log the error to the console with more details
+        const errorDetails = {
+          resource: event.target.src || event.target.href,
+          type: event.target.tagName,
+          timestamp: new Date().toISOString()
+        };
+
+        console.error('Resource loading error details:', errorDetails);
+
+        // Display user-friendly error
+        if (!document.getElementById('load-error-message')) {
+          const errorDiv = document.createElement('div');
+          errorDiv.id = 'load-error-message';
+          errorDiv.style.cssText = 'position:fixed;top:0;left:0;right:0;background:red;color:white;padding:10px;text-align:center;z-index:9999;';
+          errorDiv.innerHTML = `Failed to load resource: ${event.target.src || event.target.href}. Please check browser console for details or try refreshing the page.`;
+          document.body.appendChild(errorDiv);
+        }
+      }
+    }, true);
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

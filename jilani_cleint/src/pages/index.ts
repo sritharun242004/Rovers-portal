@@ -1,0 +1,16 @@
+export * from './Dashboard';
+export * from './Error';
+export * from './ForgotPassword';
+export * from './ParentVerifyEmail';
+export * from './Login';
+export * from './Register';
+export * from './ResetPassword';
+export * from './VerifyEmail';
+export * from './AddEvent';
+export * from './ParentDashboard';
+export * from './EventDetail';
+export * from './MyRegistrationsPage';
+export * from './StudentsDashboard';
+export * from './Support';
+export * from './StudentDetail';
+export { RegistrationDetailPage } from './RegistrationDetail';

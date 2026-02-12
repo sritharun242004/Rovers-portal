@@ -1,0 +1,10 @@
+node_modules/
+.envserver.log
+.env
+
+# Environment variables - DO NOT COMMIT
+.env
+.env.*
+*.env
+.env.bak
+.env.bak2

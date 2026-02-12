@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  <!-- Home Page -->
+  <url>
+    <loc>https://www.roverssportsacademy.com/</loc>
+    <lastmod>2025-10-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.roverssportsacademy.com/" />
+    <xhtml:link rel="alternate" hreflang="en-in" href="https://www.roverssportsacademy.com/india" />
+    <xhtml:link rel="alternate" hreflang="en-ae" href="https://www.roverssportsacademy.com/uae" />
+    <xhtml:link rel="alternate" hreflang="en-my" href="https://www.roverssportsacademy.com/malaysia" />
+  </url>
+  
+  <!-- About Page -->
+  <url>
+    <loc>https://www.roverssportsacademy.com/about</loc>
+    <lastmod>2025-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Sports Programs -->
+  <url>
+    <loc>https://www.roverssportsacademy.com/sports</loc>
+    <lastmod>2025-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Academy -->
+  <url>
+    <loc>https://www.roverssportsacademy.com/academy</loc>
+    <lastmod>2025-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Partners -->
+  <url>
+    <loc>https://www.roverssportsacademy.com/partners</loc>
+    <lastmod>2025-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Contact -->
+  <url>
+    <loc>https://www.roverssportsacademy.com/contact</loc>
+    <lastmod>2025-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- India Page -->
+  <url>
+    <loc>https://www.roverssportsacademy.com/india</loc>
+    <lastmod>2025-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- UAE Page -->
+  <url>
+    <loc>https://www.roverssportsacademy.com/uae</loc>
+    <lastmod>2025-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Malaysia Page -->
+  <url>
+    <loc>https://www.roverssportsacademy.com/malaysia</loc>
+    <lastmod>2025-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset>
+

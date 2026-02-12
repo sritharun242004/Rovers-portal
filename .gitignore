@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables - NEVER COMMIT
+.env
+.env.*
+*.env
+.env.bak
+.env.bak2
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+server.log
+
+# Uploads (local)
+jilani_server/uploads/
+
+# Sentry
+.env.sentry-build-plugin
+
+# Large binary files
+*.msi
+*.zip
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

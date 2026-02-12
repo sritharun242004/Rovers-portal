@@ -1,0 +1,38 @@
+[16-Oct-2024 00:44:50 UTC] Access denied for user 'roversapp'@'localhost' to database 'roversapp'
+[16-Oct-2024 00:44:50 UTC] PHP Warning:  Undefined variable $event in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php on line 15
+[16-Oct-2024 00:44:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php:15
+Stack trace:
+#0 /home/lua4krzibwu6/public_html/roversapp/admin/index.php(2): include()
+#1 {main}
+  thrown in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php on line 15
+[16-Oct-2024 00:47:24 UTC] Access denied for user 'roversapp'@'localhost' to database 'roversapp'
+[16-Oct-2024 00:47:24 UTC] PHP Warning:  Undefined variable $event in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php on line 15
+[16-Oct-2024 00:47:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php:15
+Stack trace:
+#0 /home/lua4krzibwu6/public_html/roversapp/admin/include/top.php(2): include()
+#1 /home/lua4krzibwu6/public_html/roversapp/admin/dashboard.php(2): include('/home/lua4krzib...')
+#2 {main}
+  thrown in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php on line 15
+[16-Oct-2024 00:51:01 UTC] Access denied for user 'roversapp'@'localhost' to database 'roversapp'
+[16-Oct-2024 00:51:01 UTC] PHP Warning:  Undefined variable $event in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php on line 15
+[16-Oct-2024 00:51:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php:15
+Stack trace:
+#0 /home/lua4krzibwu6/public_html/roversapp/admin/include/top.php(2): include()
+#1 /home/lua4krzibwu6/public_html/roversapp/admin/dashboard.php(2): include('/home/lua4krzib...')
+#2 {main}
+  thrown in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php on line 15
+[16-Oct-2024 00:52:03 UTC] Access denied for user 'roversapp'@'localhost' to database 'roversapp'
+[16-Oct-2024 00:52:03 UTC] PHP Warning:  Undefined variable $event in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php on line 15
+[16-Oct-2024 00:52:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php:15
+Stack trace:
+#0 /home/lua4krzibwu6/public_html/roversapp/admin/index.php(2): include()
+#1 {main}
+  thrown in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php on line 15
+[16-Oct-2024 00:52:13 UTC] Access denied for user 'roversapp'@'localhost' to database 'roversapp'
+[16-Oct-2024 00:52:13 UTC] PHP Warning:  Undefined variable $event in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php on line 15
+[16-Oct-2024 00:52:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php:15
+Stack trace:
+#0 /home/lua4krzibwu6/public_html/roversapp/admin/include/top.php(2): include()
+#1 /home/lua4krzibwu6/public_html/roversapp/admin/dashboard.php(2): include('/home/lua4krzib...')
+#2 {main}
+  thrown in /home/lua4krzibwu6/public_html/roversapp/admin/include/eventconfig.php on line 15
