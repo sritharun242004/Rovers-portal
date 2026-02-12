@@ -106,7 +106,7 @@ A comprehensive full-stack sports event management platform built for **Rovers M
 
 ```
 rovers-portal/
-├── jilani_cleint/                 # Frontend (React + TypeScript + Vite)
+├── website/                 # Frontend (React + TypeScript + Vite)
 │   ├── src/
 │   │   ├── api/                   # API client modules (axios-based)
 │   │   ├── components/            # Reusable React components
@@ -125,7 +125,7 @@ rovers-portal/
 │   ├── tailwind.config.js
 │   └── tsconfig.json
 │
-├── jilani_server/                 # Backend (Node.js + Express)
+├── server/                 # Backend (Node.js + Express)
 │   ├── routes/                    # Express route handlers (17 files)
 │   ├── models/                    # Mongoose models (13 collections)
 │   ├── services/                  # Business logic layer (18 services)
@@ -161,23 +161,23 @@ rovers-portal/
 
 2. **Install backend dependencies**
    ```bash
-   cd jilani_server
+   cd server
    npm install
    ```
 
 3. **Install frontend dependencies**
    ```bash
-   cd ../jilani_cleint
+   cd ../website
    npm install
    ```
 
 4. **Set up environment variables**
 
-   Create a `.env` file in `jilani_server/` (see [Environment Variables](#environment-variables) section below).
+   Create a `.env` file in `server/` (see [Environment Variables](#environment-variables) section below).
 
 5. **Seed the database (optional)**
    ```bash
-   cd jilani_server
+   cd server
    node scripts/seedDatabase.js
    node scripts/seedCategoryData.js
    node scripts/updateSportPricing.js
@@ -185,14 +185,14 @@ rovers-portal/
 
 6. **Start the backend server**
    ```bash
-   cd jilani_server
+   cd server
    npm start
    ```
    Server runs on `http://localhost:3000`
 
 7. **Start the frontend dev server**
    ```bash
-   cd jilani_cleint
+   cd website
    npm run dev
    ```
    Client runs on `http://localhost:5173`
@@ -201,7 +201,7 @@ rovers-portal/
 
 ## Environment Variables
 
-### Backend (`jilani_server/.env`)
+### Backend (`server/.env`)
 
 ```env
 # Server
@@ -417,7 +417,7 @@ SENTRY_DSN=your_sentry_dsn
 
 ### Database Seeding
 ```bash
-cd jilani_server
+cd server
 
 # Seed initial data
 node scripts/seedDatabase.js
@@ -457,7 +457,7 @@ node scripts/checkMongoDB.js
 ### Docker
 
 ```bash
-cd jilani_server
+cd server
 docker build -t rovers-portal-server .
 docker run -p 3000:3000 --env-file .env rovers-portal-server
 ```
@@ -465,11 +465,11 @@ docker run -p 3000:3000 --env-file .env rovers-portal-server
 ### Production Build (Frontend)
 
 ```bash
-cd jilani_cleint
+cd website
 npm run build
 ```
 
-The built files will be in `jilani_cleint/dist/` — serve with any static file server or CDN.
+The built files will be in `website/dist/` — serve with any static file server or CDN.
 
 ### Infrastructure
 

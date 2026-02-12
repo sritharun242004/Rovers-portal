@@ -29,7 +29,7 @@ Thumbs.db
 server.log
 
 # Uploads (local)
-jilani_server/uploads/
+server/uploads/
 
 # Sentry
 .env.sentry-build-plugin

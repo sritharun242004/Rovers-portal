@@ -25,24 +25,24 @@ The registration system has been updated from **country-based pricing** to **spo
 ## 🔧 Changes Made
 
 ### 1. **Database Schema Update**
-   - **File:** `jilani_server/models/Sport.js`
+   - **File:** `server/models/Sport.js`
    - **Change:** Added `registrationFee` field (Number, default: 0)
    - **Storage:** Fees are stored in cents to avoid decimal precision issues
 
 ### 2. **Database Pricing Update**
-   - **Script:** `jilani_server/scripts/updateSportPricing.js`
+   - **Script:** `server/scripts/updateSportPricing.js`
    - **Status:** ✅ Successfully updated 8 sports in the database
    - **Usage:** Run `node scripts/updateSportPricing.js` to update pricing
 
 ### 3. **Backend Service Updates**
-   - **File:** `jilani_server/services/paymentService.js`
+   - **File:** `server/services/paymentService.js`
    - **New Methods:**
      - `calculateAmountBySport(sportId, studentCount)` - Calculate sport-based pricing
      - `getSportPricing(sportId)` - Get pricing for a specific sport
    - **Backward Compatibility:** Country-based pricing methods still work for legacy support
 
 ### 4. **Backend API Routes**
-   - **File:** `jilani_server/routes/paymentRoutes.js`
+   - **File:** `server/routes/paymentRoutes.js`
    - **Updated Route:** `POST /api/payment/calculate`
      - Now accepts `sportId` parameter for sport-based pricing
      - Falls back to `country` parameter for country-based pricing (legacy)
@@ -50,7 +50,7 @@ The registration system has been updated from **country-based pricing** to **spo
      - Returns pricing information for a specific sport
 
 ### 5. **Frontend API Client**
-   - **File:** `jilani_cleint/src/api/payment.ts`
+   - **File:** `website/src/api/payment.ts`
    - **New Functions:**
      - `calculatePricingBySport(sportId, studentCount)` - Calculate sport pricing
      - `getSportPricing(sportId)` - Fetch sport pricing info
@@ -58,7 +58,7 @@ The registration system has been updated from **country-based pricing** to **spo
      - `calculatePricing()` - Now supports optional `sportId` parameter
 
 ### 6. **Frontend Payment Modal**
-   - **File:** `jilani_cleint/src/components/RegistrationPaymentModal.tsx`
+   - **File:** `website/src/components/RegistrationPaymentModal.tsx`
    - **Change:** Updated to fetch sport-based pricing using `sportId`
    - **Fallback:** Uses country-based pricing if `sportId` is not provided
 
@@ -206,7 +206,7 @@ If you need to change sport pricing:
 
 1. **Edit the pricing in the script:**
    ```javascript
-   // File: jilani_server/scripts/updateSportPricing.js
+   // File: server/scripts/updateSportPricing.js
    const SPORT_PRICING = {
      'Football': 35000,  // Change from RM 300 to RM 350
      // ... other sports
@@ -215,7 +215,7 @@ If you need to change sport pricing:
 
 2. **Run the update script:**
    ```bash
-   cd jilani_server
+   cd server
    node scripts/updateSportPricing.js
    ```
 

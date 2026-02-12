@@ -26,7 +26,7 @@ Updated the payment proof display to:
 
 ## 🔧 Changes Made
 
-### **File:** `jilani_cleint/src/pages/StudentDetail.tsx`
+### **File:** `website/src/pages/StudentDetail.tsx`
 
 #### **1. Added State for Students Registered Together**
 ```typescript

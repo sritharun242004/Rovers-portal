@@ -14,7 +14,7 @@ The student data was actually loading successfully, but the Sentry errors were b
 
 ## 🔧 **Fix Applied:**
 
-### File: `jilani_cleint/src/main.tsx`
+### File: `website/src/main.tsx`
 
 **Changed Sentry Configuration:**
 
@@ -60,7 +60,7 @@ Sentry.init({
 1. **Restart the frontend dev server:**
    ```bash
    # Stop current server (Ctrl+C)
-   cd "/Users/tharunkumarl/Full Stack/rovers Portal/jilani_cleint"
+   cd "/Users/tharunkumarl/Full Stack/rovers Portal/website"
    npm run dev
    ```
 
